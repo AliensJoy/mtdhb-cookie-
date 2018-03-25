@@ -13,7 +13,7 @@ function record (name, content) {
     console.log(`获取 cookie 成功！请查看 ${file}`)
     const open = /^win/.test(process.platform) ? 'start' : 'open'
     exec(`${open} ${file}`)
-    process.exit(0)
+    setTimeout(() => process.exit(0), 3000)
   })
 }
 

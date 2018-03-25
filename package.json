@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "hongbao2-cookie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "start": "node src",
     "pkg": "pkg . --targets='node9-win-x64,node9-macos-x64' --out-path dist"
