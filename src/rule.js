@@ -9,7 +9,6 @@ function record (name, content) {
     if (err) {
       return console.error(err)
     }
-    AnyProxy.utils.systemProxyMgr.disableGlobalProxy()
     console.log(`获取 cookie 成功！请查看 ${file}`)
     const open = /^win/.test(process.platform) ? 'start' : 'open'
     exec(`${open} ${file}`)
