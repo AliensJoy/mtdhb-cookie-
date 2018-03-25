@@ -24,7 +24,7 @@
 
 ![demo.gif](demo.gif)
 
-如果工具一直没有反应，可以手动：windows 左下角开始按钮 / 搜索 / Internet 选项，如下图设置 `127.0.0.1:8888` 即可
+如果工具一直没有反应，可以手动：windows 左下角开始按钮 / 搜索 / Internet 选项，如下图设置 `127.0.0.1:8001` 即可
 
 ![image](https://user-images.githubusercontent.com/8413791/37874091-351496e2-305a-11e8-85bd-8c5827c5139b.png)
 
