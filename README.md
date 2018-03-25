@@ -18,7 +18,7 @@
 
 工具会自动抓取 cookie 并生成一个 `.txt`
 
-就这么简单，复制 txt 的全部内容到网站（http://www.mtdhb.com/）即可贡献
+就这么简单，复制 txt 的全部内容到网站 http://www.mtdhb.com/ 即可贡献
 
 下面是 AV 画质的 GIF 演示：
 
