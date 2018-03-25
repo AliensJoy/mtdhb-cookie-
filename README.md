@@ -19,7 +19,7 @@
 
 此时请手动：windows 左下角开始按钮 / 搜索 / Internet 选项，如下图设置：
 
-![image](https://user-images.githubusercontent.com/8413791/37874091-351496e2-305a-11e8-85bd-8c5827c5139b.png)
+![proxy.png](https://note.youdao.com/yws/api/personal/file/B057752FFBE84F3B94EF0441DFCE0524?method=download&shareKey=2842f379edf9fd52f275f9b01157feb0)
 
 然后使用 PC 版微信：点击任意一个美团、饿了么拼手气红包链接
 
@@ -29,7 +29,7 @@
 
 > 下面是 AV 画质的 GIF 演示：
 
-![demo.gif](demo.gif)
+![demo.gif](https://note.youdao.com/yws/api/personal/file/94A719078FDE4BDEB87B8CC1DE66B01C?method=download&shareKey=aaf9bcb8fb9ab3ed2cc6e7ace16d6852)
 
 ### MacOS
 
