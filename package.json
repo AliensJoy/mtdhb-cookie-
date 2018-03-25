@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "hongbao2-cookie",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src",
+    "pkg": "pkg . --targets='node9-win-x64,node9-macos-x64' --out-path dist"
+  },
+  "bin": "src/index.js",
+  "pkg": {
+    "scripts": "src/**/*.js",
+    "assets": "node_modules/**"
+  },
+  "dependencies": {
+    "anyproxy": "^4.0.6"
+  },
+  "author": "zhuweiyou <i@zhuweiyou.com> (https://zhuweiyou.com/)",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "pkg": "^4.3.0"
+  }
+}
