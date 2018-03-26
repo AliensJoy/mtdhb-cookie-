@@ -1,4 +1,5 @@
 const AnyProxy = require('anyproxy')
+const path = require('path')
 const exec = require('child_process').exec
 const proxy = require('./proxy')
 
@@ -10,7 +11,7 @@ module.exports = () => {
       if (error) {
         return console.error('生成证书失败', error)
       }
-      const certDir = require('path').dirname(keyPath)
+      const certDir = path.dirname(keyPath)
       console.log('证书文件将生成在', certDir)
       const open = /^win/.test(process.platform) ? 'start' : 'open'
       exec(`${open} .`, {cwd: certDir})

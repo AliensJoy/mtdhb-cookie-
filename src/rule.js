@@ -1,7 +1,5 @@
-const AnyProxy = require('anyproxy')
 const fs = require('fs')
 const path = require('path')
-const exec = require('child_process').exec
 
 function record (name, content) {
   const file = path.join(process.cwd(), name)
@@ -10,8 +8,6 @@ function record (name, content) {
       return console.error(err)
     }
     console.log(`获取 cookie 成功！请查看 ${file}`)
-    const open = /^win/.test(process.platform) ? 'start' : 'open'
-    exec(`${open} ${file}`)
     process.exit(0)
   })
 }
@@ -30,9 +26,6 @@ function records (request) {
 module.exports = {
   * beforeDealHttpsRequest (request) {
     return ['meituan.com', 'ele.me'].find(host => request.host.indexOf(host) !== -1)
-  },
-  * beforeSendRequest (request) {
-    records(request)
   },
   * beforeSendResponse (request, response) {
     records(request)
