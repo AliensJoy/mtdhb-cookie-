@@ -15,9 +15,9 @@ function record (name, content) {
 function records (request) {
   try {
     const cookie = request.requestOptions.headers.Cookie
-    if (request.url.indexOf('ele.me') !== -1 && cookie.indexOf('snsInfo') !== -1) {
+    if (request.url.indexOf('h5.ele.me') !== -1 && cookie.indexOf('snsInfo') !== -1) {
       record('饿了么cookie.txt', cookie)
-    } else if (request.url.indexOf('meituan.com') !== -1 && cookie.indexOf('ewxshinfo') !== -1) {
+    } else if (request.url.indexOf('waimai.meituan.com') !== -1 && cookie.indexOf('ewxshinfo') !== -1) {
       record('美团cookie.txt', cookie)
     }
   } catch (e) {}
@@ -25,7 +25,10 @@ function records (request) {
 
 module.exports = {
   * beforeDealHttpsRequest (request) {
-    return ['meituan.com', 'ele.me'].find(host => request.host.indexOf(host) !== -1)
+    return ['waimai.meituan.com', 'h5.ele.me'].find(host => request.host.indexOf(host) !== -1)
+  },
+  * beforeSendRequest (request) {
+    records(request)
   },
   * beforeSendResponse (request, response) {
     records(request)
