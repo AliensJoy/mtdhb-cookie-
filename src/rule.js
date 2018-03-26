@@ -21,7 +21,7 @@ function records (request) {
     const cookie = request.requestOptions.headers.Cookie
     if (request.url.indexOf('ele.me') !== -1 && cookie.indexOf('snsInfo') !== -1) {
       record('饿了么cookie.txt', cookie)
-    } else if (request.url.indexOf('meituan') !== -1 && cookie.indexOf('ewxshinfo') !== -1) {
+    } else if (request.url.indexOf('meituan.com') !== -1 && cookie.indexOf('ewxshinfo') !== -1) {
       record('美团cookie.txt', cookie)
     }
   } catch (e) {}
