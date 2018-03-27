@@ -23,7 +23,7 @@
 
 然后使用 PC 版微信：点击任意一个美团、饿了么拼手气红包链接
 
-工具会自动抓取 cookie 并生成一个 `.txt`，复制 txt 的全部内容到网站 http://www.mtdhb.com/ 即可贡献
+工具会自动抓取 cookie 并生成一个 `.txt`，复制 txt 的全部内容到网站 [https://www.mtdhb.com](https://www.mtdhb.com) 即可贡献
 
 **贡献完以后，请按照上图，取消勾选代理服务器**
 
