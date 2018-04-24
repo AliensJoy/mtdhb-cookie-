@@ -1,1 +1,1 @@
-require('./ca')()
+require('./ca')();
