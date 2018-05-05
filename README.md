@@ -1,18 +1,18 @@
-# hongbao2-cookie
+# cookie
 
 [![GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](LICENSE)
 
-[返回主项目](https://github.com/game-helper/hongbao2)
+[返回主项目](https://github.com/mtdhb/mtdhb)
 
-美团、饿了么 cookie 一键提取工具 - https://git.io/cookies
+美团、饿了么 cookie 一键提取工具
 
 ## 使用方法
 
 下载最新版工具
 
-- github releases - https://github.com/game-helper/hongbao2-cookie/releases 
-- 百度网盘 - https://pan.baidu.com/s/1BRW9F-4QjOLTxnUrqutIlQ
-- 加 QQ 群，在群文件中下载 - https://github.com/game-helper/hongbao2
+* github releases - https://github.com/mtdhb/cookie/releases
+* 百度网盘 - https://pan.baidu.com/s/1BRW9F-4QjOLTxnUrqutIlQ
+* 加 QQ 群，在群文件中下载 - https://github.com/mtdhb/mtdhb
 
 ### Windows
 
@@ -22,7 +22,7 @@
 
 > 首次使用时，工具会自动生成一个证书文件，你只要双击 `rootCA.crt`，点击 `安装证书`，然后关闭工具再重新打开
 
-工具会提示：已开启代理 `127.0.0.1:8001` 
+工具会提示：已开启代理 `127.0.0.1:8001`
 
 此时请手动：windows 左下角开始按钮 / 搜索 / Internet 选项，如下图设置：
 
@@ -44,5 +44,4 @@
 
 ## 捐赠
 
-[如果我们的项目对您有帮助，欢迎捐赠](https://github.com/game-helper/donate)
-
+[如果我们的项目对您有帮助，欢迎捐赠](https://github.com/mtdhb/donate)

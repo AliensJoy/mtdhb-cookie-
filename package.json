@@ -1,16 +1,10 @@
 {
+  "name": "cookie",
   "private": true,
-  "name": "hongbao2-cookie",
   "scripts": {
     "start": "node src",
     "pkg": "pkg . --targets='node9-win-x64,node9-macos-x64' --out-path dist",
-    "precommit": "lint-staged"
-  },
-  "lint-staged": {
-    "src/**/*.js": [
-      "prettier --write",
-      "git add"
-    ]
+    "precommit": "pretty-quick --staged"
   },
   "bin": "src/index.js",
   "pkg": {
@@ -24,8 +18,8 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "husky": "^0.14.3",
-    "lint-staged": "^7.0.4",
     "pkg": "^4.3.0",
-    "prettier": "^1.12.1"
+    "prettier": "^1.12.1",
+    "pretty-quick": "^1.4.1"
   }
 }
