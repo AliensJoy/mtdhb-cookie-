@@ -2,8 +2,6 @@
 
 [![GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](LICENSE)
 
-[返回主项目](https://github.com/mtdhb/mtdhb)
-
 美团、饿了么 cookie 一键提取工具
 
 ## 使用方法
@@ -41,7 +39,3 @@
 ### MacOS
 
 因为 mac 版的微信不能授权，所以需要用手机连代理，懂技术的可以自己弄，教程日后再说。
-
-## 捐赠
-
-[如果我们的项目对您有帮助，欢迎捐赠](https://github.com/mtdhb/donate)
